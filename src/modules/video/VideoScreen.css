@@ -1,0 +1,200 @@
+.video-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-btn {
+  width: 3%;
+  position: absolute;
+  z-index: 10;
+  top: 3%;
+  right: 4%;
+  /* width: 4%;
+  position: absolute;
+  z-index: 10;
+  top: 5%;
+  right: 5%; */
+}
+
+.navigation-btn-mobile {
+  width: 4%;
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  right: 26px;
+}
+
+.navigation-btn-jump-to-start {
+  width: 4%;
+  position: absolute;
+  z-index: 10;
+  top: 3%;
+  left: 1%;
+}
+
+.navigation-btn-jump-to-start-mobile {
+  width: 4%;
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  left: 8px;
+}
+
+.navigation-btn-jump-to-end {
+  width: 4%;
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+  /*right: 70px;*/
+  left: 1%;
+}
+
+.navigation-btn-jump-to-end-index {
+  width: 4%;
+  position: absolute;
+  z-index: 10;
+  top: 5%;
+  /*right: 70px;*/
+  left: 1%;
+}
+
+.navigation-btn-jump-to-end-mobile-index {
+  width: 4%;
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  right: 70px;
+  left: 10px;
+}
+
+.navigation-btn-jump-to-end-mobile {
+  width: 4%;
+  position: absolute;
+  z-index: 10;
+  top: 24px;
+  right: 70px;
+  left: 10px;
+}
+
+.next-btn {
+  width: 5%;
+  position: absolute;
+  z-index: 10;
+  top: 8%;
+  right: 1%;
+}
+
+.next-btn-mobile {
+  width: 4%;
+  position: absolute;
+  z-index: 10;
+  top: 20px;
+  right: 10px;
+}
+
+.nzt-button {
+  width: 5%;
+  position: absolute;
+  z-index: 10;
+  top: 8%;
+  right: 1%;
+  /* width: 4%;
+    position: absolute;
+    z-index: 10;
+    top: 15%;
+    right: 1% */
+}
+
+.nzt-button-mobile {
+  width: 4%;
+  position: absolute;
+  z-index: 10;
+  top: 20px;
+  right: 10px;
+}
+
+.h2t-button {
+  width: 5%;
+  position: absolute;
+  z-index: 1;
+  top: 21%;
+  right: 1%;
+}
+
+.h2t-button-mobile {
+  width: 4%;
+  position: absolute;
+  z-index: 1;
+  top: 78px;
+  right: 10px;
+}
+
+.hy-green-button {
+  width: 5%;
+  position: absolute;
+  z-index: 10;
+  top: 35%;
+  right: 1%;
+  /* width: 4%;
+  position: absolute;
+  z-index: 10;
+  top: 55%;
+  right: 1%; */
+}
+
+.hy-green-button-mobile {
+  width: 4%;
+  position: absolute;
+  z-index: 10;
+  top: 47px;
+  right: 10px;
+}
+
+.disabled {
+  pointer-events: none;
+
+  /* for "disabled" effect */
+  opacity: 0.5;
+  background: #ccc;
+}
+
+.ant-spin-nested-loading {
+  position: static !important;
+}
+
+.ant-spin-nested-loading > div > .ant-spin {
+  top: 25% !important;
+}
+
+.react-player > video {
+  width: 100%;
+}
+
+.full-screen-btn {
+  width: 1.5%;
+  height: auto;
+  position: absolute;
+  z-index: 10;
+  top: 1%;
+  right: 1%;
+}
+
+/* .my-component {
+    background: #fff;
+}
+
+.fullscreen-enabled .my-component {
+    background: #000;
+} */
+
+/*video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}*/
+/*video::-webkit-media-controls-play-button {}*/
+/*video::-webkit-media-controls-timeline {}*/
+/*video::-webkit-media-controls-current-time-display{}*/
+/*video::-webkit-media-controls-time-remaining-display {}*/
+/*video::-webkit-media-controls-mute-button {}*/
+/*video::-webkit-media-controls-toggle-closed-captions-button {}*/
+/*video::-webkit-media-controls-volume-slider {}*/
